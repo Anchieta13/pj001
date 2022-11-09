@@ -12,14 +12,20 @@ body {
 
 header {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 8px;
+    font-weight: normal;
+    min-height: 150px;
+    padding-top: 30px;
     text-align: center;
     background-color: cadetblue;
 }
 
+header > h1 {
+
+}
+
 nav {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 9px;
+    padding: 10px;
     background-color: darkcyan;
 }
 
