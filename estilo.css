@@ -1,9 +1,23 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
     font-family: transformers;
-    src: url(fonte/Transformers\ Movie.ttf)(format(truetype));
+    src: url(fonte/Transformers\ Movie.ttf)format('truetype');
     font-weight: normal;
+}
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #45e4508c;
+    --cor2: #3BBF44;
+    --cor3: #38A640;
+    --cor4: #2F7334;
+    --cor5: #0D0D0D;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-transformers: 'transformers', cursive;
 }
 
 
@@ -13,7 +27,7 @@
 }
 
 body {
-    background-color: aquamarine;
+    background-color: var(--cor1);
 }
 
 header {
@@ -21,7 +35,7 @@ header {
     min-height: 150px;
     padding-top: 30px;
     text-align: center;
-    background-color: cadetblue;
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
 }
 
 header > h1 {
@@ -43,12 +57,13 @@ header > p {
 nav {
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
-    background-color: darkcyan;
+    background-color: var(--cor4);
 }
 
 nav > a {
-    border-radius: 5px;
-    padding: 5px;
+    color: #c5ebd6;
+    border-radius: 8px;
+    padding: 7px;
     text-decoration: none;
     font-weight: bold;
     transition-duration: .4s;
