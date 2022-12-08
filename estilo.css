@@ -130,3 +130,33 @@ td, th {
     font-weight: bold;
     padding: 10px;
 }
+
+footer {
+    background-color: var(--cor4);
+    color: var(--cor0);
+    padding: 8px;
+}
+
+footer p {
+    padding: 5px;
+    font-family: var(--fonte-destaque);
+    text-align: center;
+}
+
+footer  a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: #0D0D0D;
+    padding: 5px;
+    border-radius: 6px;
+}
