@@ -37,6 +37,8 @@ a.external::after {
 }
 
 header {
+    min-width: 400px;
+    max-width: 1000px;
     min-height: 150px;
     padding-top: 30px;
     text-align: center;
