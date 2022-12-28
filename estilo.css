@@ -37,15 +37,20 @@ a.external::after {
 }
 
 header {
+<<<<<<< Updated upstream
     font-family: transformers;
     min-width: 150px;
+=======
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    min-height: 150px;
+>>>>>>> Stashed changes
     padding-top: 30px;
     text-align: center;
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
 }
 
 header > h1 {
     color: white;
+    font-family: transformers;
     font-weight: normal;
     font-size: 3em;
     text-align: center;
